@@ -1,1 +1,1 @@
-# cme257-advanced-julia
+# CME 257 - Advanced Topics in Scientific Computing with Julia
