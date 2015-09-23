@@ -20,16 +20,16 @@ This course is intended to introduce students who are already somewhat familiar 
 
 A tentative schedule follows (topics may bleed into more than one day)
 
-1. programming in Julia
+1. Programming in Julia
   1. Basics / getting started
   2. Object Oriented Features, type system
-2. the Julia Ecosystem
-  3. Packages (common scientific computing packages, and how to use them) - lots here - graphics, math packages, graph theory, optimization
+2. The Julia Ecosystem
+  3. Packages (common scientific computing packages, and how to use them) - graphics, math packages, graph theory, optimization, etc.
   4. Intro to GitHub
 3. Practical Julia
   5. How to write your own package/module, more GitHub
-  6. Interfacing with C/Fortran shared object libraries, pycall
-4. Julia in the wild
+  6. Interfacing with C/Fortran shared object libraries, PyCall
+4. Julia in the Wild
   7. Debugging, performance, etc.
   8. Special topics - parallelism, linear algebra implementations, blas calls, etc., the future of Julia
 
