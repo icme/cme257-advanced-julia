@@ -1,14 +1,18 @@
 # CME 257 - Advanced Topics in Scientific Computing with Julia
 
+* Location: 60-120
+* Time: M/W 3:00PM - 4:20PM
+* This short course runs from weeks 2-5 of the quarter
+
+---
+
 * Instructor: Brad Nelson
 * Email: [bjnelson@stanford](mailto:bjnelson@stanford.edu)
 * Office Hours: TBD, outside ICME (Huang Basement)
 
 ---
 
-* Location: 60-120
-* Time: M/W 3:00PM - 4:20PM
-* This short course runs from weeks 2-5 of the quarter
+
 
 ### Overview
 
