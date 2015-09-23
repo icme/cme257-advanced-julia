@@ -19,6 +19,7 @@
 This course is intended to introduce students who are already somewhat familiar with scientific computing to what Julia has to offer.  It is not intended to be a first course in programming (there are several other short courses that are more suited for this purpose).  This is not to say that Julia itself is a difficult language to learn - it is pretty easy to get started with a search online, but that the course will cover material that will likely be much more work if you haven't seen something similar before.
 
 A tentative schedule follows (topics may bleed into more than one day)
+
 1. programming in Julia
   1. Basics / getting started
   2. Object Oriented Features, type system
