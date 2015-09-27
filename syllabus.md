@@ -45,9 +45,8 @@ This is the first time this course is being offered, and I want to cover materia
 
 ### Resources
 
-* [Julia's documentation](http://julia.readthedocs.org/en/release-0.4/)
-* [Julia's package listing](http://pkg.julialang.org/)
-* You are also welcome to use Google to find tutorials or troubleshooting solutions online.  Let me know if you find a good resource!
+* See [resources.md](resources.md)
+* You are also welcome to use Google to find tutorials or for troubleshooting solutions online.  Let me know if you find a good resource!
 
 ## Sturcture of the course
 ### Class
