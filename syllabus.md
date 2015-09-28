@@ -8,7 +8,7 @@
 
 * Instructor: Brad Nelson
 * Email: [bjnelson@stanford](mailto:bjnelson@stanford.edu)
-* Office Hours: TBD, outside ICME (Huang Basement)
+* Office Hours: By appointment.  You can also come to C2 office hours Wed. 12-2 outside ICME (Huang basement)
 
 ---
 
