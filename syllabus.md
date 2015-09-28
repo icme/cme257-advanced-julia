@@ -48,7 +48,7 @@ This is the first time this course is being offered, and I want to cover materia
 * See [resources.md](resources.md)
 * You are also welcome to use Google to find tutorials or for troubleshooting solutions online.  Let me know if you find a good resource!
 
-## Sturcture of the course
+## Structure of the course
 ### Class
 I hope to make the class as hands-on and interactive as possible.  It is fairly easy to learn the basics of Julia on your own, so instead of lectures on something you can find better explained on Google, the class will be held in a workshop-like style.  Please bring a laptop to class.
 
