@@ -11,5 +11,8 @@ function speak()
   println("hello from cme257mod!")
 end
 
+function not_exported()
+  println("hello")
+end
 
 end #module

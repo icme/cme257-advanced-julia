@@ -97,3 +97,9 @@ return v
 ```
 
 write a single function that takes either of the cme257matrix children as input and uses the power iteration to compute the top eigenvector.  Test it on 10 x 10 matrices.
+
+for the v != vprev check, try using
+
+```julia
+!isapprox(v, vprev)
+```
