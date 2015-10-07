@@ -206,6 +206,16 @@ Sometimes, you may wish to change the start of a branch from one place to anothe
 git rebase master branch # rebases branch to have
 ```
 
+* .gitignore
+
+This isn't actually a command, but you can create a file that will tell git to ignore certain files or types of files.
+
+```
+# .gitignore
+secrets.txt # don't share secrets
+*~ # emacs temp files
+```
+
 
 ## Exercise 3
 
