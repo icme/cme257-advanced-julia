@@ -2,6 +2,8 @@
 
 Due Sunday 10/18/15 by 5pm.  Put your package up on GitHub, and email me the the URL.  I'll verify that the package works on corn@stanford using Julia v0.4.0 (I've compiled that version), so you may wish to try it out there as well.
 
+If you would like to create a different package (e.g. for your own research or interests), you can work on that instead.
+
 ## Julia Sets
 
 Consider a rational function in the complex plane R(z) = P(z)/Q(z) where P, Q are polynomials without common divisors.  Let S be the set of points z in the complex plane that do not approach infinity after having R repeatedly applied.  That is
