@@ -63,7 +63,7 @@ for i in 1:length(x)
       end
     end
     if A[i,j] == 0 # didn't diverge
-      A[i,j] escape_tol + 1
+      A[i,j] = escape_tol + 1
     end
   end
 end
