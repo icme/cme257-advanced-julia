@@ -13,4 +13,4 @@ libcme257: cme257.o
 	$(CC) -o libcme257.so cme257.o $(LIBFLAGS)
 
 clean:
-	rm -rf *.o *.so *.o *~
+	rm -rf *.o *.so *.o *~ *.pyc
