@@ -4,7 +4,7 @@ Due Sunday 10/18/15 by 5pm.  Put your package up on GitHub, and email me the the
 
 ## Julia Sets
 
-Consider a rational function in the complex plane R(z) = P(z)/Q(z) where P, Q are polynomials without common divisors.  Let S be the set of points z in the complex plane that do not approach infinity after having R repeatedly applied.  That is 
+Consider a rational function in the complex plane R(z) = P(z)/Q(z) where P, Q are polynomials without common divisors.  Let S be the set of points z in the complex plane that do not approach infinity after having R repeatedly applied.  That is
 
 R(R(...R(z)...))
 
@@ -27,7 +27,7 @@ In this assignment, you'll write a basic package to allow someone to visualize a
 Your package should export a function that has the following properties:
 
 Input:
-* R - a rational function on the complex numbers
+* R - a rational function on the complex numbers (or just a function).
 * x - a 1-D array of grid points on the real line
 * y - a 1-D array of grid points on the imaginary line
 * n_iter - the maximum number of iterations on a point (set a reasonable default)
@@ -37,8 +37,6 @@ Output:
 * An array A of size(x) by size(y), where A[ i,j ] is the number of iterations it took z = x[ i ] + 1im * y[ j ] to surpass the escape_tol parameter in norm.  If the point did not escape, set A[ i,j ] to escape_tol + 1.
 
 Parameterize your function on a type T (T should be a Real type) that lets you change the precision of your computations.  (the reason: look at how [complex is defined](https://github.com/JuliaLang/julia/blob/master/base/complex.jl))
-
-In your package, include an example in the README, any package dependencies in REQUIRE, and some tests in your test file (one such test might be to make sure that a fixed point - R(z) = z does not diverge).
 
 ###  Visualize your results
 
