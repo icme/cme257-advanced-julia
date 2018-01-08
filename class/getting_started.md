@@ -53,9 +53,10 @@ You may have a lab or department cluster you'd like to use.  Here we'll cover ho
 
 1. ssh into Farmshare 2
 ```
-ssh suid@rice.stanford.edu
+ssh <suid>@rice.stanford.edu
 ```
-Follow the login prompts
+Where ```<suid>``` is replaced by your stanford ID.  Follow the login prompts
+
 2. The default version of Julia on rice is v0.5.2.  Since we want the most up-to-date version, we'll load the Julia module
 ~~~
 module load julia
