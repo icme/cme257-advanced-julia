@@ -16,9 +16,9 @@ If you have significant development experience on Windows, you may be able to na
 
 ## Install on Your Computer
 
-The easiest option is to [download Julia for your machine here](https://julialang.org/downloads/).
+The easiest option is to [download Julia for your machine here](https://julialang.org/downloads/).  If your OS has a package manager, you can also try something like ```dnf install julia``` or ```apt-get install julia```
 
-The recommended option for this class, however, is to install from source.  This will get you started using git version control, and if you want to contribute to Julia down the road you'll be half way there.
+The recommended option for this class, however, is to install from source.  This will get you started using git version control, and if you want to contribute to Julia down the road you'll be half way there.  Also, this will allow Julia to take advantage of compiler optimizations on your system, which won't happen if you just download the pre-compiled binaries (see point 7 [here](http://www.stochasticlifestyle.com/7-julia-gotchas-handle/)).
 
 
 ### Installing Julia From Source
