@@ -4,7 +4,7 @@ This document covers two ways to get started using Julia.  We'll use the most re
 
 ## A note on Operating Systems
 
-The vast majority of computing is performed on \*nix operating systems, the most familiar of which include Linux, OpenBSD, and MacOS.  A common feature on all these systems is the [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), often via a terminal.  If you aren't already familiar with the bash shell, use this course as an opportunity to learn - it will open up all sorts of computing resources to you.  This class will assume that you are using such a system.
+The vast majority of computing is performed on \*nix operating systems, the most familiar of which include Linux, OpenBSD, and MacOS.  A common feature on all these systems is the [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), often via a terminal.  If you aren't already familiar with the bash shell, use this course as an opportunity to get started - it will open up all sorts of computing resources to you.  This class will assume that you are using such a system.
 
 To Windows users: Julia can be installed on Windows, but for the purposes of this course, you are encouraged to choose one of the following options:
 1. Obtain a Linux virtual machine.  You can try installing this on your computer, but many departments at Stanford offer them to students.
@@ -12,6 +12,12 @@ To Windows users: Julia can be installed on Windows, but for the purposes of thi
 3. Dual boot your Windows machine with a \*nix operating system.
 
 If you have significant development experience on Windows, you may be able to navigate the course with Julia on Windows.  However, the instructor will not be very useful for the purposes of troubleshooting any problems.
+
+### If You're Unfamiliar with BASH
+
+Don't worry - you don't need much for this course.  Many references can be found online, but [here's one quick reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html).  
+
+Once you can navigate the filesystem using the commands ```ls, cd, pwd, mkdir, rmdir```, you should be able to follow the instructions below.
 
 
 ## Install on Your Computer
