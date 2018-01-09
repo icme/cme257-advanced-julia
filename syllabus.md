@@ -8,7 +8,7 @@
 
 * Instructor: Brad Nelson
 * Email: [bjnelson@stanford](mailto:bjnelson@stanford.edu)
-* Office Hours: By appointment.
+* Office Hours: TBD
 
 ---
 
@@ -23,17 +23,17 @@ Briefly, this course covers topics that you may find useful when using Julia for
 A tentative schedule follows (topics may bleed into more than one day)
 
 1. Programming in Julia
-  1. Basics / getting started
-  2. Object Oriented Features, type system
+  * Basics / getting started
+  * Object Oriented Features, type system
 2. The Julia Ecosystem
-  3. Packages (common scientific computing packages, and how to use them) - graphics, math packages, graph theory, optimization, etc.
-  4. Intro to git
+  * Packages (common scientific computing packages, and how to use them) - graphics, math packages, graph theory, optimization, etc.
+  * Intro to git
 3. Practical Julia
-  5. How to write your own package/module, more GitHub
-  6. Interfacing with C/Fortran shared object libraries, Python, other languages
+  * How to write your own package/module, more GitHub
+  * Interfacing with C/Fortran shared object libraries, Python, other languages
 4. Julia in the Wild
-  7. Debugging, performance, etc.
-  8. Special topics - parallelism, linear algebra implementations, blas calls, etc., the future of Julia
+  * Debugging, performance, etc.
+  * Special topics - parallelism, linear algebra implementations, blas calls, etc., the future of Julia
 
 Julia is a relatively new language, and is still being rapidly developed, we're going to work with the most recent version we can [on GitHub](https://github.com/JuliaLang/julia).  This will allow us to see the most up-to-date functionality, and maybe you'll even find something you can contribute to.
 
