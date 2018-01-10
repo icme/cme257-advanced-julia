@@ -7,6 +7,8 @@ This document covers two ways to get started using Julia.  We'll use the most re
 The vast majority of computing is performed on \*nix operating systems, the most familiar of which include Linux, OpenBSD, and MacOS.  A common feature on all these systems is the [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), often via a terminal.  If you aren't already familiar with the bash shell, use this course as an opportunity to get started - it will open up all sorts of computing resources to you.  This class will assume that you are using such a system.
 
 To Windows users: Julia can be installed on Windows, but for the purposes of this course, you are encouraged to choose one of the following options:
+
+0. [likely easiest] Use Ubuntu (a Linux distribution) inside Windows 10 - see [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 1. Obtain a Linux virtual machine.  You can try installing this on your computer, but many departments at Stanford offer them to students.
 2. SSH into a \*nix computing resource, such as Farmshare 2.  For example, see [here](https://www.ssh.com/ssh/client) for some options.  
 3. Dual boot your Windows machine with a \*nix operating system.
