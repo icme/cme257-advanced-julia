@@ -37,4 +37,4 @@ Julia maintains a list [here](https://julialang.org/teaching/).  Here are some t
 
 ## Fun Stuff
 
-* [Unicode Table](https://docs.julialang.org/en/release-0.5/manual/unicode-input/) - make all your variables unicode!
+* [Unicode Table](https://docs.julialang.org/en/stable/manual/unicode-input) - make all your variables unicode!
