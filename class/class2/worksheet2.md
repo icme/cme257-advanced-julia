@@ -1,19 +1,13 @@
 # Worksheet 2: Functions
 
-1. What happens if instead of parameterizing a function like
-```julia
-function yell_my_type{T <: Number}(x::T)
-  ...
-end
-```
-We tried to do the same thing with:
-```julia
-function yell_my_type(x <: Number)
-  ...
-end
-```
-What's going on?  Can you think of other ways we might try to write a function that applies to many types?
+1. Overload the addition and multiplication operators to do element-wise addition and multiplication on cme257OrderedPair.
 
-2. Overload the addition and multiplication operators to do element-wise addition and multiplication on cme257OrderedPair.
+2. Overload addition and multiplication to work with cme257ff{N,T} for N any positive integer (don't worry about checking positivity), where the operations are defined mod N:
 
-3. (If you have time) - Overload the addition and multiplication operators for the Quaternion type.  You can read about Quaternions [here](https://en.wikipedia.org/wiki/Quaternion).
+(a +/* b).val = a.val +/* b.val mod N
+
+This gives this type the structure of a ring (in the mathematical sense).  If N is prime, the type has the structure of a field (in the mathematical sense).
+
+3. Modify ```yell_my_type``` to yell all types correctly.
+
+
