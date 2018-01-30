@@ -1,6 +1,6 @@
-# CME 257 10/7/15 - using Git
+# CME 257 Class 4 - using Git
 
-(Parts of this lecture borrows from [CME 211 lecture 6](https://github.com/nwh/cme211-notes/blob/master/lecture-6.md) - thanks to Nick Henderson!)
+(Some of this material was originally borrowed from the 2015 version of CME211, taught by Nick Henderson)
 
 If you don't have a mac or linux computer, it may be easiest to ssh into farmshare to follow along.
 
@@ -16,21 +16,25 @@ and maybe
 
 ```bash
 cd julia
-git checkout v0.4.0-rc3
+git checkout v0.6.2
 ```
 
-What were we actually doing?
+We've also seen Julia's package manager is doing something under the hood, when we do something like
+```julia
+Pkg.clone("git@github.com:JuliaSparse/Metis.jl.git")
+```
+
+Today we'll talk a bit about what's going on here - version control using git.
 
 ## What is git?
 
-First, let's note that GitHub is not git (and git is not GitHub).  We use GitHub in this course because that is where Julia and its packages are stored.  GitHub is a host for remote git repositories, and there are other such hosts (for example bitbucket.org).  You can also set up your own remote repository on a private server, or even use git without a remote repository.  If you're a student, you can request an academic discount on GitHub (just use your student email) to let you have private repositories for free.
+First, let's note that GitHub is not git (and git is not GitHub).  We use GitHub in this course because that is where Julia and its packages are stored.  GitHub is a host for remote git repositories, and there are other such hosts (for example bitbucket.org).  You can also set up your own remote repository on a private server, or even use git without a remote repository.  If you're a student, you can request an academic account on GitHub (use your Stanford email) to let you have private repositories for free.  This is nice for research, or other projects you're not quite ready to share with the world.
 
 What is git?  It is a version control system.  This enables:
 * periodic saving of work (called *committing*)
 * returning to old versions when a problem is introduced
-* creation of experimental code *branches* with out disturbing the main or
-  working code
-* *merging* of concurrent work of independent developers
+* creation of experimental code *branches* with out disturbing the main or working code
+* *merging* the concurrent work of independent developers
 * *remote* backup and storage of work
 * tracking a *log* of project history
 
@@ -39,7 +43,7 @@ Git is not the only tool used for version control, although it is one of the mos
 * SVN (Subversion)
 * HG (Mercurial)
 
-If you haven't used version control before, this class will introduce you to the basics of git, and why you should use it.  This isn't intended to be a comprehensive overview of git let alone version control, but will hopefully give you a bit of familiarity and experience with 95% of the operations you will use in git.
+If you haven't used version control before, this class will introduce you to the basics of git, and why it is a good idea to use it.  This isn't intended to be a comprehensive overview of git let alone version control, but will hopefully give you a bit of familiarity and experience with 95% of the operations you will use in git.
 
 ## Resources
 * Git homepage: http://git-scm.com/
@@ -104,11 +108,11 @@ commit changes:
 ```bash
 git commit -m "brief description"
 ```
-if you don't pass the description, git will open up a text editor for you to comment in (you can specify a default editor using git config).
+if you don't pass a message, git will open up a text editor for you to comment in (you can specify a default editor using git config).  Writing some sort of informative message is important, since it helps you roll back changes in the future if you accidentally break something.
 
 ## Exercise 1
-On corn (or on your own computer) create a new folder, and initialize it as a git repository.  I'll use cme257 as my folder name if you want to agree with what you see here.
-* setup git if you have not already
+On farmshare (or on your own computer) create a new folder, and initialize it as a git repository.  I'll use cme257 as my folder name if you want to agree with what you see here.
+* setup git on your system if you have not already
 * touch a file 'README.md' in your folder,
 * Make the first line of the file
 ```
@@ -119,7 +123,7 @@ description coming soon
 
 ## DAGs and git
 
-One useful way to think about what git is doing is to think of its operations creating vertices and edges on a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) (c.f.  http://eagain.net/articles/git-for-computer-scientists/).
+One useful way to think about what git is doing is to think of its operations creating vertices and edges on a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) ([here](http://eagain.net/articles/git-for-computer-scientists/) is a reference for the graph-inclined folks).
 
 * a commit creates a vertex
 * you add an edge between two sequential commits
@@ -203,7 +207,7 @@ git reset --hard # return to state of last commit
 Sometimes, you may wish to change the start of a branch from one place to another.  This is useful if changes on a branch do not rely on changes that occurred after the branch was formed.
 
 ```bash
-git rebase master branch # rebases branch to have
+git rebase master branch # rebases branch to be on master
 ```
 
 * .gitignore
@@ -213,7 +217,7 @@ This isn't actually a command, but you can create a file that will tell git to i
 ```
 # .gitignore
 secrets.txt # don't share secrets
-*~ # emacs temp files
+*~ # emacs temp files - * is a wildcard
 ```
 
 
