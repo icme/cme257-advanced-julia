@@ -8,7 +8,7 @@
 
 * Instructor: Brad Nelson
 * Email: [bjnelson@stanford](mailto:bjnelson@stanford.edu)
-* Office Hours: TBD
+* Office Hours: Friday 1-3 Huang Basement
 
 ---
 
