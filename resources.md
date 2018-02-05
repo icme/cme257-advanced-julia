@@ -25,6 +25,10 @@ Julia maintains a list [here](https://julialang.org/teaching/).  Here are some t
 * [A Deep Introduction to Julia for Data Science and Scientific Computing](https://ucidatascienceinitiative.github.io/IntroToJulia/) - a recent course from UC Irvine with a similar flavor to this one
 
 
+## LLVM
+
+[LLVM for Grad Students](http://www.cs.cornell.edu/~asampson/blog/llvm.html)
+
 ## Packages
 
 * [IJulia](https://github.com/JuliaLang/IJulia.jl) - create notebooks that mix markdown and live code.
