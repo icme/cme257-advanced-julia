@@ -10,7 +10,8 @@ default: libcme257
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 libcme257: cme257.o
-	$(CC) -o libcme257.so cme257.o $(LIBFLAGS)
+	#$(CC) -o libcme257.dylib cme257.o $(LIBFLAGS) # for mac
+	$(CC) -o libcme257.so cme257.o $(LIBFLAGS) # for linux
 
 clean:
-	rm -rf *.o *.so *.o *~ *.pyc
+	rm -rf *.o *.so *.o *~ *.pyc *.dylib
