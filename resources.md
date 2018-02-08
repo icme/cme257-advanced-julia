@@ -6,6 +6,7 @@ Additional resources and websites for learning and exploring Julia will be poste
 * [Julia's documentation](https://docs.julialang.org/en/stable/)
 * [Julia's package listing](https://pkg.julialang.org/) - see what you can install!
 * [JuliaBox](https://juliabox.org) - try out Julia in your browser
+* [Julia News](https://github.com/JuliaLang/julia/blob/master/NEWS.md) - release notes etc. - see what is coming up in v0.7
 
 
 ## Tutorials
