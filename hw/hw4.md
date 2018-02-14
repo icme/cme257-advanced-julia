@@ -22,9 +22,9 @@ Julia sets and the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set
 
 ### Compute if points diverge
 
-In this assignment, you'll write a basic package to allow someone to visualize a Julia set.  We won't worry about finding points on the boundary of S, but the simpler problem of finding points that haven't diverged beyond some given size after some given number of iterations.
+In this assignment, you'll write a function to allow someone to visualize a Julia set.  We won't worry about finding points on the boundary of S, but the simpler problem of finding points that haven't diverged beyond some given size after some given number of iterations.
 
-Your package should export a function that has the following properties:
+You should write a function with the following properties:
 
 Input:
 * R - a rational function on the complex numbers (or just a function).
