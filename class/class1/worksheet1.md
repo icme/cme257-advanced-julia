@@ -24,7 +24,7 @@ Work with your neighbors to discuss/solve the following questions.  Feel free to
 ### Arrays
 
 12. How would you create an array?  What are some operations you may wish to perform?  Do array indices begin with 1 or 0?
-13. Create a 10x10 random matrix
+13. Create a 10x10 random matrix A, a 1x10 random vector b, and solve the linear system Ax = b.
 14. Allocate a 3x4 array of Int64 (don't initialize)
 15. Allocate a 3x4 array of Int64, initialized to zero
 
@@ -43,11 +43,14 @@ Work with your neighbors to discuss/solve the following questions.  Feel free to
 23. How can you create a dict (i.e. dictionary, associative array, map)?
 24. How can you create a set?
 25. How can you use explicit boolean "True" and "False" values?
+26. How can I add an entry to the end of a vector?
+27. How do I create a queue and add and remove entries from it?
 
 ### Programming Tools
 
-26. How can you time an operation?
-27. How can you find the type of something?
-28. How can you see LLVM code?
-29. What is an example of a macro?
-30. How can you tell which version of Julia you are running?
+28. How can you time an operation?
+29. How can you find the type of something?
+30. How can you see LLVM code?
+31. What is an example of a macro?
+32. How can you tell which version of Julia you are running?
+33. How can you check the documentation of a function from the REPL/notebook?

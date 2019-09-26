@@ -21,13 +21,34 @@ Don't worry - you don't need much for this course.  Many references can be found
 
 Once you can navigate the filesystem using the commands ```ls, cd, pwd, mkdir, rmdir```, you should be able to follow the instructions below.
 
+## Installing Julia
+
+We will be using the latest stable release of Julia in this class (at the time of writing, Julia 1.2.0). 
 
 ## Install on Your Computer
 
-The easiest option is to [download Julia for your machine here](https://julialang.org/downloads/).  If your OS has a package manager, you can also try something like ```dnf install julia``` or ```apt-get install julia```
+### Installing from Binaries
 
-The recommended option for this class, however, is to install from source.  This will get you started using git version control, and if you want to contribute to Julia down the road you'll be half way there.  Also, this will allow Julia to take advantage of compiler optimizations on your system, which won't happen if you just download the pre-compiled binaries (see point 7 [here](http://www.stochasticlifestyle.com/7-julia-gotchas-handle/)).
+The easiest and recommended option is to [download Julia for your machine here](https://julialang.org/downloads/).  
 
+#### Instructions for Mac OSX
+
+On Macs, download the Julia .dmg file at [this link](https://julialang-s3.julialang.org/bin/mac/x64/1.2/julia-1.2.0-mac64.dmg). Open the disk image and copy the Julia executable to your Applications folder. Double click the application to launch Julia. Once here, you may add a symlink to this executable so that you can call Julia from the command line. However in my own personal use I find a shortcut on the dock sufficient.
+
+#### Instructions for Debian/Ubuntu 
+
+Download the correct file for your system at [the download link](https://julialang.org/downloads/). Extract the contents to a known folder on your computer (I suggest creating a folder at ```~/app```.) Once you have extracted the contents of the archive, open Terminal and run the magic words
+
+```
+cd /usr/local/bin
+sudo ln -s {folder you extracted Julia to}/julia-1.2.0/bin/julia .
+```
+
+to create a symlink on the terminal. To run Julia, type ```julia``` into Terminal.
+
+### Installing from Source
+
+For advanced users, another option is to install from source.  This will get you started using git version control, and if you want to contribute to Julia down the road you'll be half way there. In earlier versions of Julia compiling your own copy of Julia would give you compiler optimizations not present in the official binaries: this is typically no longer the case though.
 
 ### Installing Julia From Source
 Instructions can be found on the [Julia GitHub page](https://github.com/JuliaLang/julia#source-download-and-compilation)
@@ -42,7 +63,7 @@ git clone git://github.com/JuliaLang/julia.git
 4. checkout the current latest version
 ```
 cd julia
-git checkout v0.6.2
+git checkout v1.2.0
 ```
 5. [optional] Configure Julia's build
 6. build julia
@@ -76,11 +97,11 @@ julia
 
 ## Now What?
 
-When you call the ```julia``` command from the terminal, you enter the interactive REPL (Read/Evaluate/Print/Loop).  You can read more [here](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL)
+When you call the ```julia``` command from the terminal or run the executable, you enter the interactive REPL (Read/Evaluate/Print/Loop).  You can read more [here](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL)
 
 ## Which Version of Julia am I Using?
 
-Remember, we're going to use the current version (v0.6.2)
+Remember, we're going to use the current version (v1.2.0)
 
 * You can determine this from the command line using ```julia --version```
 * When the REPL launches you can see version information in the start-up splash.
@@ -88,4 +109,4 @@ Remember, we're going to use the current version (v0.6.2)
 
 ## How to Exit Julia
 
-Now that you can start the Julia REPL, you may wish to be able to close it.  This can be done using ```quit() ```
+Now that you can start the Julia REPL, you may wish to be able to close it.  This can be done using ```exit() ```
