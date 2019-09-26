@@ -6,25 +6,13 @@ Additional resources and websites for learning and exploring Julia will be poste
 * [Julia's documentation](https://docs.julialang.org/en/stable/)
 * [Julia's package listing](https://pkg.julialang.org/) - see what you can install!
 * [JuliaBox](https://juliabox.org) - try out Julia in your browser
-* [Julia News](https://github.com/JuliaLang/julia/blob/master/NEWS.md) - release notes etc. - see what is coming up in v0.7
 
 
 ## Tutorials
 Julia maintains a list [here](https://julialang.org/learning/)
 
-* [Lectures in Quantitative Economics](https://lectures.quantecon.org/jl/learning_julia.html) - provides an introduction to Julia, as well as applications to economics
-* [JuliaBox](https://juliabox.org) - includes a tutorial folder
-* [Learn Julia the Hard Way](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way) -
-still under development, but looks like a good resource
-* [Introducing Julia Wikibook](https://en.wikibooks.org/wiki/Introducing_Julia)
-
-
-## Other Courses
-Julia maintains a list [here](https://julialang.org/teaching/).  Here are some that look interesting from the perspective of this course
-
-* [18.337 at MIT](http://courses.csail.mit.edu/18.337/2016/calendar.html) - Numerical Computing with Julia
-* [A Deep Introduction to Julia for Data Science and Scientific Computing](https://ucidatascienceinitiative.github.io/IntroToJulia/) - a recent course from UC Irvine with a similar flavor to this one
-
+* [A Deep Introduction to Julia for Data Science and Scientific Computing](ucidatascienceinitiative.github.io/IntroToJulia/) - An excellent introduction to Julia. Highly recommended.
+* [Introducing Julia Wikibook](https://en.wikibooks.org/wiki/Introducing_Julia) - A good reference guide for a lot of Julia's basic functionality
 
 ## LLVM
 

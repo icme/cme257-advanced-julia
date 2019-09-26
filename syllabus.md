@@ -1,14 +1,14 @@
 # CME 257 - Advanced Topics in Scientific Computing with Julia
 
-* Location: [STLC105](https://campus-map.stanford.edu/?srch=STLC105)
-* Time: Tuesdays 3:00 PM -- 4:20 PM
-* This 1-unit course meets once a week for the first 8 weeks of the quarter
+* Location: [McCullough 126 ](https://campus-map.stanford.edu/?srch=Mccull126)
+* Time: Mondays 3:00 PM -- 4:20 PM
+* This 1-unit course meets once a week on weeks 2 through 9 of the quarter
 
 ---
 
-* Instructor: Brad Nelson
-* Email: [bjnelson@stanford](mailto:bjnelson@stanford.edu)
-* Office Hours: Friday 1-3 Huang Basement
+* Instructor: Arun Jambulapati
+* Email: [jmblpati@stanford](mailto:jmblpati@stanford.edu)
+* Office Hours: Friday 1-3 Huang Basement or by appointment
 
 ---
 
@@ -18,7 +18,7 @@
 
 This course is intended to introduce students who are already somewhat familiar with scientific computing to what Julia has to offer.  It is not intended to be a first course in programming (there are several other short courses that are more suited for this purpose).  This is not to say that Julia itself is a difficult language to learn - it is pretty easy to get started with a search online, but that the course will cover material that likely won't be useful if you don't have some context to place it in.  
 
-Briefly, this course covers topics that you may find useful when using Julia for a research project.  In addition to an introduction to the Julia language, we'll cover version control using git, interfacing with existing code (including in different languages), performance, and parallelism.  Examples will focus on the workhorses of scientific computing - linear algebra and optimization, but we'll also try to showcase some applications.
+Briefly, this course covers topics that you may find useful when using Julia for a research project.  In addition to an introduction to the Julia language, we'll cover version control using git, interfacing with existing code (including in different languages), performance, and parallelism.  Examples and assignments will focus on the workhorses of scientific computing - data structures, linear algebra and optimization, but we'll also try to showcase some applications.
 
 A tentative schedule follows (topics may bleed into more than one day)
 
@@ -33,9 +33,8 @@ A tentative schedule follows (topics may bleed into more than one day)
   * Interfacing with C/Fortran shared object libraries, Python, other languages
 4. Julia in the Wild
   * Debugging, performance, etc.
-  * Special topics - parallelism, linear algebra implementations, blas calls, etc., the future of Julia
+  * Special topics - parallelism, linear algebra implementations, blas calls, etc.,
 
-Julia is a relatively new language, and is still being rapidly developed, we're going to work with the most recent version we can [on GitHub](https://github.com/JuliaLang/julia).  This will allow us to see the most up-to-date functionality, and maybe you'll even find something you can contribute to.
 
 I want to cover material that is interesting and useful to you.  If there is something in particular that you would like to see, let me know!
 
