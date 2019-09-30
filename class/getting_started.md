@@ -33,8 +33,11 @@ The easiest and recommended option is to [download Julia for your machine here](
 
 #### Instructions for Mac OSX
 
-On Macs, download the Julia .dmg file at [this link](https://julialang-s3.julialang.org/bin/mac/x64/1.2/julia-1.2.0-mac64.dmg). Open the disk image and copy the Julia executable to your Applications folder. Double click the application to launch Julia. Once here, you may add a symlink to this executable so that you can call Julia from the command line. However in my own personal use I find a shortcut on the dock sufficient.
+On Macs, download the Julia .dmg file at [this link](https://julialang-s3.julialang.org/bin/mac/x64/1.2/julia-1.2.0-mac64.dmg). Open the disk image and copy the Julia executable to your Applications folder. Double click the application to launch Julia. Once here, you may add a symlink to this executable so that you can call Julia from the command line-- use the command
+```
+sudo ln -s /Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia /usr/local/bin/julia
 
+``` 
 #### Instructions for Debian/Ubuntu 
 
 Download the correct file for your system at [the download link](https://julialang.org/downloads/). Extract the contents to a known folder on your computer (I suggest creating a folder at ```~/app```.) Once you have extracted the contents of the archive, open Terminal and run the magic words

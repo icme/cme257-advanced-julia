@@ -17,7 +17,7 @@ Work with your neighbors to discuss/solve the following questions.  Feel free to
 
 ### Files
 
-9. How would you load a file? (try class1.csv)
+9. How would you load a file? (try class1.csv) (You may need to import a package for this.)
 10. How would you run a script? (try class1.jl)
 11. How can you print to a file?
 
@@ -30,10 +30,10 @@ Work with your neighbors to discuss/solve the following questions.  Feel free to
 
 ### Packages
 
-16. Where can you find a listing of Julia packages?
+16. Where can you find a listing of Julia packages installed on the system?
 17. How can you add a Julia package?
 18. Add the Plots package, and plot y=x^2 for x in [0,10].
-19. Add the PyCall package, import numpy, and add two numbers
+19. Add the Convex package and solve the convex problem minimize x^2 + y^2 where 3x+2y > 5 and x - 4y < 10
 
 ### Data Types
 
