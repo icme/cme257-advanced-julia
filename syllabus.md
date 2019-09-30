@@ -67,10 +67,10 @@ I hope to make the class as hands-on and interactive as possible.  It is fairly 
 
 ### Homework
 Since the best way to learn a new language is through practice, there will be some homework.
-* There will be 3 or 4 assignments, which should take about an hour each.  
+* There will be 5 or 6 assignments, which should take about half an hour to an hour each. 
 * On weeks without a full homework, there will be a short exercise (less than 15 minutes to complete)
 
-Homework will generally be assigned after class on Tuesdays, and will be due Sunday at noon.
+Homework will generally be assigned after class on Mondays, and will be before the next class.
 
 This is a 1-unit course, and the goal is not to overwhelm you. If you are stuck on an assignment, please ask for help instead of spending large amounts of time searching for an answer.
 
