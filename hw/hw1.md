@@ -33,4 +33,4 @@ Write a Julia script that will print out your answers to the following survey.  
 
 ## Problem 2
 
-Implement the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) to compute the set of all primes less than an integer N. Using this, compute the sum of all primes less than 10000. Keep in mind that 1 is not a prime. 
+Implement the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) to compute the set of all primes less than an integer N. Using this, compute the sum of all primes less than 10000. Keep in mind that 1 is not a prime. Do not use any dedicated prime-testing functions in Julia like ``isprime()``.
