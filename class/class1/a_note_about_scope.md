@@ -89,4 +89,4 @@ for i = 1:1
 end
 println(x)
 ```
-runs into errors.
+runs into errors. Other data structures which serve as pointers to their entries (like dicts and queues) work in the same way.
