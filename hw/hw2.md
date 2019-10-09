@@ -1,5 +1,5 @@
 # CME 257 Homework 2
-Due Sunday 1/21 at 12 noon.
+Due Sunday 10/13 at 11:59 pm.
 
 Please submit the assignment in a IJulia notebook (.ipynb), and put the type and function definitions in a module. Name your ipynb "lastname_hw2.ipynb". This assignment shouldn't take you more than 90 minutes.
 
@@ -29,14 +29,15 @@ struct cme257rank1{T} <: cme257matrix
     m::Int64
 end
 
-function cme257rank1{T}(u::Array{T, 1}, v::Array{T, 1})
+function cme257rank1(u::Array{T, 1}, v::Array{T, 1}) where {T}
     # a special constructor for cme257rank1
     @assert length(u) == length(v) # we're only dealing with square matrices
     return cme257rank1(u, v, length(u))
 end
 
 import Base.*
-function *{T}(A::cme257rank1{T}, v::Array{T,1})
+using LinearAlgebra
+function *(A::cme257rank1{T}, v::Array{T,1}) where {T}
     @assert A.m == length(v) # make sure vector is right size for matrix
     c = dot(A.v, v)
     return copy(A.u) * c
