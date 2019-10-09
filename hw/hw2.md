@@ -1,7 +1,7 @@
 # CME 257 Homework 2
 Due Sunday 10/13 at 11:59 pm.
 
-Please submit the assignment in a IJulia notebook (.ipynb), and put the type and function definitions in a module. Name your ipynb "lastname_hw2.ipynb". This assignment shouldn't take you more than 90 minutes.
+Please submit the assignment in a IJulia notebook (.ipynb). Name your ipynb "lastname_hw2.ipynb". This assignment shouldn't take you more than 90 minutes.
 
 Email your .ipynb to jmblpati@stanford.edu with subject "cme 257 hw 2 submission"
 
