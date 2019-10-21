@@ -109,6 +109,10 @@ remove a file from the repository:
 ```bash
 git rm badfile.txt
 ```
+moving a file:
+```bash
+git mv moved.txt
+```
 
 commit changes:
 ```bash
