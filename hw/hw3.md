@@ -1,6 +1,6 @@
 # Homework 3
 
-Due Sunday 2/4/18 by 11:59:59 pm.
+Due Sunday 11/3/19 by 11:59:59 pm.
 
 ---
 
