@@ -13,8 +13,10 @@ This assignment shouldn't take you more than 90 minutes.
 
 ---
 
-* (Part 1) We define the [*min-plus*](https://en.wikipedia.org/wiki/Min-plus_matrix_multiplication) on matrices as follows. Given two (n by n) matrices A and B, we want an output matrix C where C[i,j] = min~k~ (A[i,k] + B[k,j]). In other words, to construct C[i,j] we take the i<sup>th</sup> row from A and the j<sup>th</sup> column from B, and find k to minimize A[i,k] + B[k,j]. Write a naive implementation of min-plus multiplication in Julia.
+* (Part 1) We define the [*min-plus*](https://en.wikipedia.org/wiki/Min-plus_matrix_multiplication) on matrices as follows. Given two (n by n) matrices A and B, we want an output matrix C where C[i,j] = min<sub>k</sub> (A[i,k] + B[k,j]). In other words, to construct C[i,j] we take the i<sup>th</sup> row from A and the j<sup>th</sup> column from B, and find k to minimize A[i,k] + B[k,j]. Write a naive implementation of min-plus multiplication in Julia.
+
 * (Part 2) Using some of ^e tricks from Lecture 5, optimize your implementation of the min-plus product. Your code should use some of the vectorization macros, and you should experiment with pre-allocating memory. Keep in mind some of the things we discussed about the speed directly modifying the entries of an array versus using a local variable. Benchmark your implementations on random n by n integer matrices with n = 10,50,100,500,1000,2000. 
+
 *(Part 3) Now, we will generate graph adjacency matrices using Python and PyCall. To make PyCall find packages installed in our system-wide python3 installation, we add to Julia's ENV list and rebuild Pycall. From the terminal, run the command
 ```bash
 which python3
