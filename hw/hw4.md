@@ -17,7 +17,7 @@ This assignment shouldn't take you more than 90 minutes.
 
 * (Part 2) Using some of ^e tricks from Lecture 5, optimize your implementation of the min-plus product. Your code should use some of the vectorization macros, and you should experiment with pre-allocating memory. Keep in mind some of the things we discussed about the speed directly modifying the entries of an array versus using a local variable. Benchmark your implementations on random n by n integer matrices with n = 10,50,100,500,1000,2000. 
 
-*(Part 3) Now, we will generate graph adjacency matrices using Python and PyCall. To make PyCall find packages installed in our system-wide python3 installation, we add to Julia's ENV list and rebuild Pycall. From the terminal, run the command
+* (Part 3) Now, we will generate graph adjacency matrices using Python and PyCall. To make PyCall find packages installed in our system-wide python3 installation, we add to Julia's ENV list and rebuild Pycall. From the terminal, run the command
 ```bash
 which python3
 ```
@@ -30,7 +30,7 @@ Pkg.build("PyCall")
 ```
 and then restart your Julia notebook's kernel.
 
-*(Part 4) Using NetworkX, Numpy, and Scipy through PyCall, we will write a function which generates a random graph and returns its adjacency matrix and diameter. Here is some starter code.
+* (Part 4) Using NetworkX, Numpy, and Scipy through PyCall, we will write a function which generates a random graph and returns its adjacency matrix and diameter. Here is some starter code.
 ```julia
 using PyCall
 nx = pyimport("networkx")
@@ -78,4 +78,4 @@ If A is the standard adjacency matrix of an n node graph, let B be the matrix wh
 Write a function to turn a normal adjacency matrix into this "modified" adjacency matrix. It turns out that if G is an n-node graph with adjacency matrix A and modified adjacency matrix B, the diameter of G is precisely the maximum value in the n<sup>th</sup> power of B (or n+1 if G is not connected). In other words, if we take B, copy it to another matrix C, and multiply B by C n times using the min-plus product, we can compute the diameter of G! Implement this using your optimized min-plus product implementation, and compare its output with `python_diameter`.
 (**Note**: it is important to use the min plus product here! Using normal matrix multiplication will just cause B to go off to infinity.)
 
-*(Part 6 (Bonus)) It also turns out that the min-plus product is associative. Thus, we can compute the n<sup>th</sup> min-plus power by [repeated squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring). Implement this in Julia, and compare its running time to the naive method in Part 5.
+* (Part 6 (Bonus)) It also turns out that the min-plus product is associative. Thus, we can compute the n<sup>th</sup> min-plus power by [repeated squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring). Implement this in Julia, and compare its running time to the naive method in Part 5.
