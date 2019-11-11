@@ -4,6 +4,7 @@
 
 void hello();
 int c_sum(int a, int b);
+int c_mult(int a, int b);
 
 void hello() {
   printf("hello world!");
@@ -11,4 +12,8 @@ void hello() {
 
 int c_sum(int a, int b) {
   return a + b;
+}
+
+int c_mult(int a, int b) {
+  return a * b;
 }
