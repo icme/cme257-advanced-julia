@@ -24,15 +24,15 @@ function DFTfaster(x)
     N = length(x)
     if N%2 != 0 
         println("N needs to be a power of 2")
-    elseif N >= 32
+    elseif N <= 32
         return DFTslow(x)
     end
-    x_even = x[0:2:N-1]
-    x_odd = x[1:2:N]
-    f  = exp.(-2*im*pi*collect(1:div(N/2))/N)
+    x_even = DFTfaster(x[1:2:end])
+    x_odd = DFTfaster(x[2:2:end])
+    f  = exp.(-2*im*pi*collect(0:(div(N,2)-1))/N)
     y_even = x_even + f.*x_odd
     y_odd = x_even - f.*x_odd
-    return reshape([y_even y_odd]',N,1)[:]
+    return vcat(y_even,y_odd)
 end
 ```
 Install the package `FFTW.jl` and verify that these implementations are correct. Try computing the DFT of a sum of sime waves to see if you can recover the linear combination of waves that they are composed of.
